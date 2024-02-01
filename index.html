@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifolio</title>
+  <link rel="stylesheet" href="css/style.css">
+    <!--links boxicons-->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--links remixicon-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
+    <!--google fonts links-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <a href="#" class="logo"> JS</a>
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Sobre mim</a></li>
+      <li><a href="#work">Projetos</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+    <div class="bx bx-menu" id="menu-icon"></div>
+  </header>
+  <!-- home -->
+<section class="home" id="home"> 
+  <div class="home-text">
+    <h5>Bem vindo(a)</h5>
+    <h1> Me chamo Jesiane,<br> Fullstack</h1>
+    <div class="social">
+      <a href="#">Follow Me</a>
+      <a href="https://github.com/jesiane"><i class="ri-github-fill"></i></a>
+      <a href="https://www.linkedin.com/in/jesiane-straubel/"><i class="ri-linkedin-box-fill"></i></a>
+    </div>
+    <div class="button">
+      <a href="#" target="iframe_download" class="btn2"><i class="ri-arrow-down-line"></i>Download CV</a>
+    </div>
+  </div>
+  <div class="home-img">
+    <img src="img/home.jpg">
+  </div>
+</section>
+<!--about-->
+<section class="sbout" id="about">
+  <div class="center">
+      <div class="h-main">
+        <div class="h-text">
+          <h2>sobre mim</h2>
+        </div>
+        <div class="h-btn">
+            <a href="#" class="hh-btn">Read more<i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+      <p>Desenvolvedora Fullstack e freelancer na área com conhecimentos em linguagens como HTML5, CSS,
+        JavaScript, TypeScript, Linguagem C#. Tecnica em Informatica e Graduada em Ciência da Computação. 
+        Participei da Academia do Programador 2023.
+      </p>
+  </div>
+  <div class="about-content">
+      <div class="box">
+          <h3>Academia do Programador</h3>
+          <a href="#">900 horas</a>
+      </div>
+  </div>
+</section>
+<!-- Work -->
+<section class="work" id="work">
+  <div class="center">
+    <div class="h-main">
+      <div class="h-text">
+        <h2>projetos</h2>
+      </div>
+      <div class="h-btn">
+          <a href="#" class="hh-btn">Sell all<i class="ri-arrow-right-line"></i></a>
+      </div>
+    </div>
+    <p>Alguns trabalhos desenvolvidos durante a Academia do Progranador.</p>
+  </div>
+  <div class="work-content">
+    <div class="row">
+      <img src="img/p1.png">
+      <div class="main-row">
+        <div class="row-text">
+            <h5>HTML - CSS - JS</h5>
+            <h4>DESIGN PORTIFOLIO</h4>
+        </div>
+        <div class="row-icon">
+          <i class="ri-github-fill"></i>
+        </div>
+      </div>
+    </div>
+    <!---->
+    <div class="row">
+      <img src="img/p2.png">
+      <div class="main-row">
+        <div class="row-text">
+            <h5>HTML - CSS - JS</h5>
+            <h4>DESIGN PORTIFOLIO</h4>
+        </div>
+        <div class="row-icon">
+          <i class="ri-github-fill"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="img/p3.png">
+      <div class="main-row">
+        <div class="row-text">
+            <h5>HTML - CSS - JS</h5>
+            <h4>DESIGN PORTIFOLIO</h4>
+        </div>
+        <div class="row-icon">
+          <i class="ri-github-fill"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- contato -->
+<section class="contact" id="contact">
+   <div class="center">
+    <div class="h-main">
+      <div class="h-text">
+        <h2>contato</h2>
+      </div>
+      <div class="h-btn">
+          <a href="#" class="hh-btn">Ping me<i class="ri-arrow-right-line"></i></a>
+      </div>
+    </div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus perferendis iure iste,
+      adipisci quis voluptatum vel fugiat beatae blanditiis deserunt placeat nam cumque recusandae unde accusantium 
+      esse nesciunt error eius!</p>
+  </div>
+
+  <div class="contact-form">
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+      <input type="hidden" name="access_key" value="fa1faa04-af02-4b0e-84af-81f9ed7f5d01">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="email address" required>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Write a message here..." required></textarea>
+      <input type="submit" name="" value="submit" Send Message class="send-btn">
+    </form>
+  </div>
+</section>
+
+<div class="end-content">
+  <a href="#home" class="scroll-top">
+    <i class="ri-arrow-up-s-fill"></i>
+  </a>
+</div>
+
+  <!--js file link-->
+  <script src="js/script.js"></script>
+</body>
+</html>
